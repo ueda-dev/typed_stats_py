@@ -1,8 +1,8 @@
 from __future__ import annotations
 from typing import Any, Dict, List, Generic, TypeVar, TypedDict, Callable, Tuple, Type
 from pandas import DataFrame
-from src._types.exceptions import ProtocolViolationException
-from src._decorators import allowed_overrun
+from .._types.exceptions import ProtocolViolationException
+from .._decorators import allowed_overrun
 import pandas as pd
 
 _S = TypeVar('_S', bound='type')
