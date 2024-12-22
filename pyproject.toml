@@ -1,0 +1,14 @@
+[project]
+name = "typedstats"
+version = "1.0.0"
+dependencies = [
+    "pandas"
+]
+authors = [
+    {name = "ueda-dev", email = "d2211020@eco.kitakyu-u.ac.jp"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
